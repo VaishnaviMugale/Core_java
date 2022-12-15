@@ -1,0 +1,18 @@
+package LocalVariable;
+
+public class LocalVarEx1 {
+
+	public static void main(String[] args) {
+       int a=10;              //local var
+	System.out.println("a ="+a);
+	a++;
+	{
+		int x=100;       //local var
+		System.out.println("x ="+x);
+		System.out.println("a ="+a);
+		x++;
+		System.out.println("x ="+x);
+	}
+	}
+
+}
