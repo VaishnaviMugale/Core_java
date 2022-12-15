@@ -1,0 +1,21 @@
+package Constructors;
+
+ class Test1 {
+       int a,b,c;
+       Test1(int pa, int pb, int pc){
+    	   a=pa;
+    	   b=pb;
+    	   c=pc;
+    	   
+       }
+       void showAbc(){
+    	   System.out.println("a "+a+"b "+b+"c "+c);
+       }
+}
+
+public class Data{
+	public static void main(String[] args) {
+		Test1 d =new Test1(11,22,33);
+		d.showAbc();
+	}
+}
