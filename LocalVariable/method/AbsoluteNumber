@@ -1,0 +1,25 @@
+package method;
+
+import java.util.Scanner;
+
+public class AbsoluteNumber {
+
+	 static void absolutenumber() {
+	int n;
+	Scanner sc=new Scanner(System.in);
+	
+	System.out.println("enter a number");
+	
+	n=sc.nextInt();
+	
+	if(n<0)
+		System.out.println("absulute value= "+(n*(-1)));
+	
+	else
+		System.out.println("absulute value= "+n);
+	
+	}
+	public static void main(String[] args) {
+		absolutenumber();	
+	}
+}
